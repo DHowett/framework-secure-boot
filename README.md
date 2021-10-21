@@ -1,6 +1,7 @@
 ## Framework Laptop UEFI Secure Boot Certificates
 
 **Source**: Extracted from a live machine (`FRANBMCP08`)
+
 **Date**: 2021-10-21
 
 ### KEK (Key Exchange Key)
