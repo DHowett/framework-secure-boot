@@ -61,7 +61,6 @@ by another without validating that the issuing certificate is, in fact, a CA. It
 lines, and if you're going to use it to trust these certificates you may want to look at the code.
 
 ```bash
-# This assumes that you kept pk-0.der from the prior steps.
 go run verify.go frame.work-LaptopDB.der frame.work-LaptopKEK.der
 ```
 
