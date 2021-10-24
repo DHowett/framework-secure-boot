@@ -56,8 +56,9 @@ Once you have established suitable trust in the `KEK`, you can use it to validat
 the `KEK` *does not permit certificate signing*. OpenSSL will complain about this and fail to
 validate the chain.
 
-Therefore, a small Go program is provided to verify that one certificate was issued by another
-without validating that the issuing certificate is, in fact, a CA.
+Therefore, a small Go program is provided in `verify.go` to verify that one certificate was issued
+by another without validating that the issuing certificate is, in fact, a CA. It's only around 20
+lines, and if you're going to use it to trust these certificates you may want to look at the code.
 
 ```bash
 # This assumes that you kept pk-0.der from the prior steps.
