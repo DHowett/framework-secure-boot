@@ -16,3 +16,9 @@ This certificate allows for the automatic trust of any Framework-signed EFI bina
 BIOS updater.)
 
 Current thumbprint (from `frame.work-LaptopDB.der`): `732bcb5921f51141a8cd6ff213e4aad43cbb6adc`
+
+### Notes
+
+The Framework certificates, when in EFI signature list format, have an owner GUID of
+`55555555-5555-5555-5555-555555555555`. The `.esl` files in this repository bear the
+same owner GUID.
