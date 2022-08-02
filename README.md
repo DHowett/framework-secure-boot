@@ -1,21 +1,31 @@
 ## Framework Laptop UEFI Secure Boot Certificates
 
-**Source**: Extracted from a live machine (`FRANBMCP08`)
+**Source**: Extracted from live machines.
 
-**Date**: 2021-10-21
+**Date**: 2021-10-21 (TGL), 2022-08-02 (ADL)
+
+Certificates marked with `ADL` are for the 12th generation Intel Framework Laptop.
+
+_With thanks to @ngxson for providing the ADL certificates._
 
 ### KEK (Key Exchange Key)
 
 This certificate allows Framework to add additional certificates to the DB.
 
-Current thumbprint (from `frame.work-LaptopKEK.der`): `a1c36bd73e143c77954be234f71337370136074f`
+Current thumbprints:
+
+- `frame.work-LaptopKEK.der`: `a1c36bd73e143c77954be234f71337370136074f`
+- `frame.work-LaptopADLKEK.der`: `55d6ef7949b5b18c5bb7895605c1c4de18943e94`
 
 ### DB (Database)
 
 This certificate allows for the automatic trust of any Framework-signed EFI binaries (such as the
 BIOS updater.)
 
-Current thumbprint (from `frame.work-LaptopDB.der`): `732bcb5921f51141a8cd6ff213e4aad43cbb6adc`
+Current thumbprints:
+
+- `frame.work-LaptopDB.der`: `732bcb5921f51141a8cd6ff213e4aad43cbb6adc`
+- `frame.work-LaptopADLDB.der`: `a6519d24d7f31c548f5f42c2e736a41be7ce622f`
 
 ### Notes
 
@@ -24,6 +34,10 @@ The Framework certificates, when in EFI signature list format, have an owner GUI
 same owner GUID.
 
 #### Verification
+
+> **Note**
+> If you are on a 12th generation Intel Framework Laptop, substitute `ADLDB` and `ADLKEK` in the
+> following commands.
 
 You have no reason to trust me, a stranger on the internet, to provide certificates that
 can verify boot applications on your machine.

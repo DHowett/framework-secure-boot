@@ -1,0 +1,49 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN = frame.work-LaptopADLKEK
+        Validity
+            Not Before: Dec  3 06:34:46 2021 GMT
+            Not After : May 24 06:34:46 2119 GMT
+        Subject: CN = frame.work-LaptopADLDB
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:c0:a1:fb:2a:ec:e3:ad:c9:b8:5f:11:63:91:7a:
+                    d4:6a:a9:28:c4:1c:4c:08:9d:6b:26:3f:13:22:56:
+                    ff:fe:39:3b:a5:c9:3d:8d:3c:02:4e:8e:a3:8a:97:
+                    1f:16:02:5d:65:09:97:cc:33:c2:6c:76:9b:e1:74:
+                    38:60:9d:4e:58:1f:30:6c:91:d0:ee:05:03:c2:e1:
+                    f3:af:61:17:12:3f:fb:c5:2e:38:69:d1:c7:b7:18:
+                    9a:56:a0:3b:22:a5:5a:c5:9c:78:fe:4b:44:e4:70:
+                    4a:45:30:1d:86:7d:9e:9f:7f:7b:03:02:53:98:fc:
+                    2c:72:c9:de:0e:02:5b:29:8b:b7:4f:f1:b4:71:24:
+                    bd:2b:c4:0e:5e:94:61:a4:21:a4:d8:13:4c:71:e8:
+                    ad:c9:5b:f1:8e:46:b6:5c:47:8f:ca:4c:f2:d0:94:
+                    f6:59:c4:73:2c:a9:35:04:2d:d6:cd:c0:fe:d6:a2:
+                    80:32:48:d9:00:9a:1e:3a:28:52:28:7d:fd:c7:17:
+                    41:90:60:c0:33:77:a7:03:e0:7c:2c:94:d1:64:f3:
+                    5d:0e:0e:70:22:b1:04:22:79:94:a3:d3:c5:ae:4c:
+                    2e:f5:c8:90:38:87:04:7d:03:db:57:8e:cb:a1:03:
+                    68:5a:36:73:79:a0:91:4d:af:24:3d:54:c5:7a:a1:
+                    8e:65
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha256WithRSAEncryption
+         99:bb:6e:37:1f:94:0d:00:91:5f:d1:9d:bb:b5:5a:c7:ec:5f:
+         f4:7e:d2:3f:a9:21:a6:af:fc:6b:49:b1:6a:0d:bc:2c:6b:21:
+         31:ac:b4:6f:03:0f:f5:a0:7d:26:29:7c:99:4a:23:d5:4c:85:
+         96:46:75:00:c9:20:59:91:dd:dc:44:32:4f:a9:71:01:de:f7:
+         81:1b:c0:aa:d9:59:9a:ef:40:2f:e1:4a:73:f8:82:c6:f7:ec:
+         bd:4e:94:70:15:49:15:97:d8:67:f2:ce:e8:71:54:68:0b:76:
+         e7:2a:e8:05:dc:8c:62:8c:79:43:63:e2:e6:cb:d2:ab:b6:24:
+         6c:0a:db:a1:e9:bf:6e:07:a2:41:ab:c6:98:38:21:f6:dc:c5:
+         dc:21:2d:c9:1a:49:d5:ed:60:1e:5b:4c:61:93:2f:21:f8:fd:
+         98:ab:26:4e:fb:6a:3a:51:2d:0a:52:e4:c2:c5:6e:27:70:fa:
+         93:d1:37:25:37:3a:04:44:18:03:8a:8b:7e:bf:05:71:96:a2:
+         4a:71:47:3b:89:46:ba:42:14:3b:5f:9c:3c:0b:b8:4c:44:73:
+         e3:03:30:18:85:c7:0c:99:7c:8c:3d:53:cb:0e:a4:f5:cd:b4:
+         02:12:3c:5c:4f:1a:d1:52:84:c9:a7:90:ae:08:3f:15:ce:60:
+         c7:7c:40:f5
