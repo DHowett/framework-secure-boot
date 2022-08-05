@@ -6,7 +6,8 @@
 
 Certificates marked with `ADL` are for the 12th generation Intel Framework Laptop.
 
-_With thanks to @ngxson for providing the ADL certificates._
+_With thanks to @ngxson and [Morpheus636](https://morpheus636.com/) for providing the certificates from their 12th
+generation laptops._
 
 ### KEK (Key Exchange Key)
 
